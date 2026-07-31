@@ -224,15 +224,15 @@ select option { background: #161616; }
 
     <div class="mb-5 p-4 rounded-2xl text-center font-black uppercase tracking-tight text-base" id="result-status"></div>
 
-    <div class="rounded-2xl p-6 mb-6" style="background:#0a0a0a;border:1px solid #222">
+    <div class="rounded-2xl p-6 mb-6" style="background:#0a0a0a;border:1px solid #222; margin-bottom: 2rem;">
       <h4 class="font-black text-[10px] uppercase tracking-widest mb-3 pb-2" style="color:#CCAC69;border-bottom:1px solid #1e1e1e">Parecer Estratégico</h4>
       <div id="calc-summary" style="color:#aaa;font-size:.88rem;line-height:1.75"></div>
     </div>
 
     <div class="rounded-2xl p-6 mb-6" id="box-cta-qualificado" style="background:linear-gradient(135deg,#161616,#0d0d0d);border:1px solid rgba(204,172,105,0.3);display:none;">
       <p class="text-[10px] font-black uppercase tracking-widest mb-1" style="color:#555">Próximo Passo:</p>
-      <h4 class="font-black text-base mb-2 leading-tight" style="color:#f0f0f0">� Fale com a Ana e veja como padronizar sua rede</h4>
-      <p style="color:#777;margin-bottom:1.2rem;font-size:.82rem;line-height:1.65">Com base no seu score, a Ana preparou um plano de automação (PlugAI) sob medida para a sua expansão.</p>
+      <h4 class="font-black text-base mb-2 leading-tight" style="color:#f0f0f0">� Fale com um especialista e veja como padronizar sua rede</h4>
+      <p style="color:#777;margin-bottom:1.2rem;font-size:.82rem;line-height:1.65">Com base no seu raio-x acima, nossa equipe preparou um plano de automação (PlugAI) sob medida para a sua expansão.</p>
       <a class="btn-action flex items-center justify-center gap-3 w-full py-4 rounded-2xl font-black text-sm uppercase tracking-wider" href="#" id="cta-vendedor-qualificado" target="_blank" style="text-decoration:none">
         FALAR SOBRE AUTOMAÇÃO PLUGAI
       </a>
@@ -247,9 +247,7 @@ select option { background: #161616; }
       </a>
       <button class="flex items-center justify-center gap-2 w-full mt-3 py-3 rounded-2xl font-bold text-xs uppercase tracking-wider" style="color:#888;cursor:pointer;background:0 0;border:1px solid #333;font-family:inherit" onclick="location.reload()">� Refazer o diagnóstico</button>
     </div>
-
   </div>
-
 </div>
 </div>
 
@@ -272,9 +270,11 @@ select option { background: #161616; }
     <span style="color:#CCAC69;font-size:.72rem;font-weight:900">✅ Academia Qualificada para Automação</span>
   </div>
   <p style="color:#fff;font-size:.95rem;font-weight:800;line-height:1.4;margin-bottom:.5rem">Sua operação tem potencial de ganho imediato!</p>
-  <p style="color:#aaa;font-size:.82rem;line-height:1.6;margin-bottom:1.2rem">A Ana preparou um plano de eficiência sob medida para escalar sua operação com a PlugAI. Fale agora no WhatsApp.</p>
-  <a id="plugai-popup-link" href="#" target="_blank" style="display:block;background:linear-gradient(135deg,#CCAC69,#a6894a);color:#000;font-weight:900;font-size:.9rem;text-transform:uppercase;letter-spacing:.06em;padding:1rem;border-radius:12px;text-decoration:none;margin-bottom:.75rem">� Falar sobre Automação</a>
-  <button onclick="document.getElementById('plugai-popup-aviso').style.display='none';document.getElementById('screen-result').scrollIntoView({behavior:'smooth'})" style="background:none;border:none;color:#777;font-size:.75rem;cursor:pointer;font-family:inherit">Ver meu resultado completo ↓</button>
+  <p style="color:#aaa;font-size:.82rem;line-height:1.6;margin-bottom:1.2rem">Nossa equipe preparou um plano de eficiência sob medida para escalar sua operação com a PlugAI. Fale conosco agora.</p>
+  
+  <a id="plugai-popup-link" href="#" target="_blank" onclick="document.getElementById('plugai-popup-aviso').style.display='none'; document.getElementById('screen-result').scrollIntoView({behavior:'smooth'})" style="display:block;background:linear-gradient(135deg,#CCAC69,#a6894a);color:#000;font-weight:900;font-size:.9rem;text-transform:uppercase;letter-spacing:.06em;padding:1rem;border-radius:12px;text-decoration:none;margin-bottom:.75rem">� Falar sobre Automação</a>
+  
+  <button onclick="document.getElementById('plugai-popup-aviso').style.display='none'; document.getElementById('screen-result').scrollIntoView({behavior:'smooth'})" style="background:none;border:none;color:#777;font-size:.75rem;cursor:pointer;font-family:inherit">Ver meu resultado completo ↓</button>
 </div>
 </div>
 
@@ -297,9 +297,11 @@ select option { background: #161616; }
     <span style="color:#FF4060;font-size:.72rem;font-weight:900">� Foco em Qualificação de Alunos</span>
   </div>
   <p style="color:#fff;font-size:.95rem;font-weight:800;line-height:1.4;margin-bottom:.5rem">Uma oportunidade de ouro para sua academia.</p>
-  <p style="color:#aaa;font-size:.82rem;line-height:1.6;margin-bottom:1.2rem">Antes de pensar em automação, você precisa de um LST (como este) para captar alunos qualificados para os seus programas. Entenda como funciona.</p>
-  <a id="lst-popup-link" href="#" target="_blank" style="display:block;background:linear-gradient(135deg,#25d366,#128c7e);color:#fff;font-weight:900;font-size:.9rem;text-transform:uppercase;letter-spacing:.06em;padding:1rem;border-radius:12px;text-decoration:none;margin-bottom:.75rem">� Falar sobre Captação LST</a>
-  <button onclick="document.getElementById('lst-popup-aviso').style.display='none';document.getElementById('screen-result').scrollIntoView({behavior:'smooth'})" style="background:none;border:none;color:#777;font-size:.75rem;cursor:pointer;font-family:inherit">Ver meu resultado completo ↓</button>
+  <p style="color:#aaa;font-size:.82rem;line-height:1.6;margin-bottom:1.2rem">Antes de pensar em automação, você precisa de um LST (como este) para captar alunos qualificados para os seus programas. Fale com um especialista e entenda como funciona.</p>
+  
+  <a id="lst-popup-link" href="#" target="_blank" onclick="document.getElementById('lst-popup-aviso').style.display='none'; document.getElementById('screen-result').scrollIntoView({behavior:'smooth'})" style="display:block;background:linear-gradient(135deg,#25d366,#128c7e);color:#fff;font-weight:900;font-size:.9rem;text-transform:uppercase;letter-spacing:.06em;padding:1rem;border-radius:12px;text-decoration:none;margin-bottom:.75rem">� Falar sobre Captação LST</a>
+  
+  <button onclick="document.getElementById('lst-popup-aviso').style.display='none'; document.getElementById('screen-result').scrollIntoView({behavior:'smooth'})" style="background:none;border:none;color:#777;font-size:.75rem;cursor:pointer;font-family:inherit">Ver meu resultado completo ↓</button>
 </div>
 </div>
 
@@ -492,28 +494,18 @@ async function generateResult(e) {
 
   let statusClassificacao = totalScore >= 65 ? "Qualificado-PlugAI" : "Oportunidade-LST";
 
-  // MAPEAMENTO INFALÍVEL PARA O GOOGLE SHEETS
-  // O Email vai em branco, Unidades no Tipo, Academia+Alunos no Volume
-  let params = new URLSearchParams({
-    nome: nome,
-    whatsapp: whatsapp,
-    email: "", 
-    tipo: unidades, 
-    volume: academia + " | " + alunos, 
-    score: totalScore,
-    classificacao: statusClassificacao,
-    origem: "LST-PlugAI", 
-    link: window.location.href 
-  });
+  let endpointUrl = WEBHOOK_URL_PLANILHA + 
+    "?nome=" + encodeURIComponent(nome) + 
+    "&email=" + encodeURIComponent("") + 
+    "&whatsapp=" + encodeURIComponent(whatsapp) + 
+    "&tipo=" + encodeURIComponent(unidades) +   
+    "&volume=" + encodeURIComponent(academia + " | " + alunos) +   
+    "&score=" + encodeURIComponent(totalScore) + 
+    "&classificacao=" + encodeURIComponent(statusClassificacao) + 
+    "&origem=" + encodeURIComponent("LST-PlugAI") + 
+    "&link=" + encodeURIComponent(window.location.href);
 
-  try {
-    await fetch(WEBHOOK_URL_PLANILHA + '?' + params.toString(), {
-      method: 'GET',
-      mode: 'no-cors'
-    });
-  } catch(err) {
-    console.warn("Erro no fetch:", err);
-  }
+  fetch(endpointUrl, { method: 'GET', mode: 'no-cors' }).catch(err => console.warn(err));
 
   setTimeout(() => {
     document.getElementById('screen-loading').style.display = 'none';
@@ -528,27 +520,69 @@ async function generateResult(e) {
     let summaryEl = document.getElementById('calc-summary');
     let primeiroNome = nome.split(' ')[0];
 
-    let lowestIdx = 0, lowestScore = 999;
-    userScores.forEach((s, i) => { if(s && s.score < lowestScore) { lowestScore = s.score; lowestIdx = i; } });
+    // INÍCIO DA MONTAGEM DO PARECER ESTRATÉGICO NA TELA
+    let htmlRaioX = `<p style="margin-bottom:1.5rem; font-size:0.95rem; color:#e0e0e0; line-height: 1.6;"><strong>${primeiroNome}</strong>, processamos os dados da <strong>${academia}</strong>. Abaixo está o raio-x detalhado da sua operação baseado nas suas respostas:</p>`;
+    htmlRaioX += `<div style="display:flex; flex-direction:column; gap:1.2rem; margin-bottom: 2rem; text-align: left;">`;
 
-    const dicasEducativas = [
-      "O tempo de resposta no WhatsApp está gerando perda invisível de leads. Antes de investir em tráfego, é fundamental estruturar um fluxo de resposta ágil.",
-      "A evasão silenciosa destrói o LTV dos alunos. O foco inicial deve ser monitorar frequências críticas antes de implementar retenção avançada.",
-      "A inadimplência sem automação corrói a previsibilidade do caixa. Organizar réguas básicas de cobrança é a prioridade zero.",
-      "Sem alunos qualificados, a automação perde força. O ideal é implementar um sistema de LST na sua academia para prospectar e converter os leads certos para os seus programas de maior valor.",
-      "A falta de padronização entre unidades faz a rede perder margem operacional. Antes de escalar, é preciso documentar e centralizar processos.",
-      "A dependência excessiva de pessoas trava a escala comercial. O ideal é digitalizar o funil de matrículas.",
-      "Para tracionar nos próximos meses, o alinhamento de processos de caixa e atendimento deve vir em primeiro lugar.",
-      "O desejo de mudança está presente, mas a priorização da gestão do caixa e captação deve ser o primeiro passo prático."
-    ];
-    let dicaDoPiorPilar = dicasEducativas[lowestIdx] || dicasEducativas[0];
+    userScores.forEach((s, idx) => {
+      let q = questions[idx];
+      let opt = q.options[s.index];
+      let isAlerta = opt.score >= 10;
+      
+      let badge = isAlerta 
+        ? `<span style="background:rgba(255,64,96,0.15); color:#FF4060; padding:3px 8px; border-radius:6px; font-size:0.65rem; font-weight:900; text-transform:uppercase; display:inline-block; margin-bottom: 0.75rem;">� Ponto de Atenção</span>` 
+        : `<span style="background:rgba(37,211,102,0.15); color:#25d366; padding:3px 8px; border-radius:6px; font-size:0.65rem; font-weight:900; text-transform:uppercase; display:inline-block; margin-bottom: 0.75rem;">✅ Controlado</span>`;
 
-    // ATENÇÃO: NÃO SE ESQUEÇA DE TROCAR O NÚMERO "5511999999999" ABAIXO PELO SEU NÚMERO DE WHATSAPP
-    let linkPlugAI = `https://wa.me/554899129069?text=${encodeURIComponent(`Olá Ana! Fiz o Diagnóstico da ${academia}. Meu Score foi ${totalScore}/100. Quero entender como a PlugAI pode nos ajudar a padronizar e escalar.`)}`;
-    let linkLST = `https://wa.me/5511999999999?text=${encodeURIComponent(`Olá! Fiz o Diagnóstico da ${academia} e vi que precisamos qualificar nossa captação de alunos. Como funciona a implementação do LST na minha academia?`)}`;
+      // Comentários específicos exigidos: Vendas, Atendimento, Retenção, Inadimplência
+      let comentario = "";
+      switch(idx) {
+        case 0: comentario = isAlerta ? "A demora no atendimento esfria o lead. Um atendimento automatizado instantâneo pode recuperar até 40% das <strong>vendas</strong> perdidas." : "Ótimo. O atendimento rápido é o primeiro passo para não perder vendas e verba de marketing."; break;
+        case 1: comentario = isAlerta ? "A evasão corrói sua margem de lucro silenciosamente. Sem um sistema focado em <strong>retenção</strong> ativa, você perde o LTV (Lifetime Value) do aluno." : "Sua retenção está controlada, o que é fundamental para a previsibilidade financeira."; break;
+        case 2: comentario = isAlerta ? "A cobrança manual causa atrito com o aluno e falhas no caixa. Réguas automatizadas de <strong>inadimplência</strong> recuperam receita sem esforço humano." : "O controle da inadimplência protege o fluxo de caixa da operação."; break;
+        case 3: comentario = isAlerta ? "Você está gastando energia do comercial com o perfil errado. Precisamos qualificar a <strong>captação de leads</strong> antes do vendedor agir." : "Atrair o perfil certo facilita a conversão de planos mais lucrativos."; break;
+        case 4: comentario = isAlerta ? "Sem <strong>processos de vendas e atendimento</strong> padronizados em sistema, escalar a operação para novas unidades torna-se um risco altíssimo." : "A padronização permite que a sua operação escale com segurança."; break;
+        case 5: comentario = isAlerta ? "O setor <strong>comercial (vendas)</strong> não pode parar se alguém faltar. Digitalizar o funil elimina a dependência excessiva de pessoas chave." : "Ter processos de vendas e atendimento que não dependem de uma única pessoa garante estabilidade."; break;
+        case 6: comentario = "Mapear o próximo passo estratégico é vital para direcionar as soluções de automação e vendas corretamente."; break;
+        case 7: comentario = "O timing de adoção de tecnologia dita o quão rápido você consegue estancar a perda de dinheiro na mesa."; break;
+      }
+
+      htmlRaioX += `
+        <div style="background: rgba(255,255,255,0.02); border: 1px solid #2a2a2a; border-radius: 12px; padding: 1.25rem;">
+          ${badge}
+          <h5 style="color: #CCAC69; font-size: 0.75rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem;">${q.pilar}</h5>
+          <p style="color: #fff; font-size: 0.88rem; margin-bottom: 0.85rem; line-height: 1.5;"><em>"${opt.txt}"</em></p>
+          <div style="border-top: 1px dashed #333; padding-top: 0.85rem;">
+            <p style="color: #aaa; font-size: 0.82rem; line-height: 1.6;"><strong>Diagnóstico de Mercado:</strong> ${comentario}</p>
+          </div>
+        </div>
+      `;
+    });
+    htmlRaioX += `</div>`;
+    // FIM DA MONTAGEM DO RAIO-X
+
+
+    let iconPonto = '\u25AA\uFE0F';
+    let iconOla = '\uD83D\uDC4B';
+    let iconGrafico = '\uD83D\uDCCA';
+    let iconPredio = '\uD83C\uDFE2';
+    let iconFoguete = '\uD83D\uDE80';
+    let iconAlvo = '\uD83C\uDFAF';
+
+    let respostasWhatsApp = userScores.map((s, idx) => `${iconPonto} *${questions[idx].pilar}:*\n_${questions[idx].options[s.index].txt}_`).join('\n\n');
+    let numeroWhatsAppOficial = "554899129069"; 
+    let baseMsg = `Olá! ${iconOla} Sou o(a) *${nome}* e acabei de realizar o Diagnóstico da *${academia}*.\n\n${iconGrafico} *Meu Score:* ${totalScore}/100\n${iconPredio} *Estrutura:* ${unidades} | ${alunos}\n\n*— MEU RAIO-X OPERACIONAL —*\n\n${respostasWhatsApp}\n\n`;
+
+    let msgPlugAI = baseMsg + `${iconFoguete} Gostaria de entender como a automação da *PlugAI* pode nos ajudar a padronizar e escalar.`;
+    let linkPlugAI = `https://api.whatsapp.com/send?phone=${numeroWhatsAppOficial}&text=${encodeURIComponent(msgPlugAI)}`;
+
+    let msgLST = baseMsg + `${iconAlvo} Vi que precisamos qualificar melhor nossa captação. Como funciona a implementação do *LST* na minha academia?`;
+    let linkLST = `https://api.whatsapp.com/send?phone=${numeroWhatsAppOficial}&text=${encodeURIComponent(msgLST)}`;
     
     document.getElementById('cta-vendedor-qualificado').href = linkPlugAI;
     document.getElementById('cta-vendedor-lst').href = linkLST;
+
+    document.getElementById('plugai-popup-link').href = linkPlugAI;
+    document.getElementById('lst-popup-link').href = linkLST;
 
     if (totalScore >= 65) {
       document.getElementById('box-cta-qualificado').style.display = 'block';
@@ -556,24 +590,37 @@ async function generateResult(e) {
 
       statusEl.innerText = '⚡ EFICIÊNCIA OPERACIONAL APROVADA';
       statusEl.style.cssText = 'padding:1rem;border-radius:14px;margin-bottom:1.25rem;text-align:center;font-weight:900;text-transform:uppercase;background:rgba(204,172,105,0.15);color:#CCAC69;border:1px solid rgba(204,172,105,0.3);';
-      summaryEl.innerHTML = `<p><strong style="color:#f0f0f0">${primeiroNome}</strong>, a operação da <strong style="color:#fff">${academia}</strong> apresenta gargalos claros em atendimento, inadimplência ou padronização que a PlugAI resolve imediatamente. O próximo passo é conversar com a Ana.</p>`;
       
-      setTimeout(() => { abrirModalConversao('plugai', linkPlugAI, totalScore); }, 300);
+      // Conclusão do Parecer para Qualificados
+      htmlRaioX += `
+        <div style="padding: 1.25rem; background: rgba(204,172,105,0.05); border: 1px solid rgba(204,172,105,0.3); border-radius: 12px; text-align: left;">
+          <h4 style="color:#CCAC69; font-size:0.9rem; font-weight:900; margin-bottom:0.5rem; text-transform:uppercase;">Veredito: Hora de Automatizar</h4>
+          <p style="color:#e0e0e0; font-size:0.85rem; line-height:1.6;">Sua estrutura possui gargalos, mas já tem porte para absorver alta tecnologia. A <strong>PlugAI</strong> foca exatamente em automatizar suas <strong>Vendas, Atendimento, Retenção e Inadimplência</strong>.</p>
+        </div>
+      `;
+      summaryEl.innerHTML = htmlRaioX;
+
+      setTimeout(() => { abrirModalConversao('plugai', totalScore); }, 300);
     } else {
       document.getElementById('box-cta-qualificado').style.display = 'none';
       document.getElementById('box-cta-desqualificado').style.display = 'block';
 
       statusEl.innerText = '� NECESSITA ORIENTAÇÃO (OPORTUNIDADE LST)';
       statusEl.style.cssText = 'padding:1rem;border-radius:14px;margin-bottom:1.25rem;text-align:center;font-weight:900;text-transform:uppercase;background:rgba(255,64,96,0.15);color:#FF4060;border:1px solid rgba(255,64,96,0.3);';
-      summaryEl.innerHTML = `
-        <p><strong style="color:#f0f0f0">${primeiroNome}</strong>, o momento da <strong style="color:#fff">${academia}</strong> ainda exige ajustes básicos na base de captação de clientes antes de tracionar uma automação robusta de rede.</p>
-        <div style="margin-top:1rem;padding:1rem;background:rgba(255,255,255,0.03);border:1px solid #2a2a2a;border-radius:12px;text-align:left;">
-          <strong style="color:#FF4060;display:block;margin-bottom:.3rem;font-size:.8rem;text-transform:uppercase;">� Onde focar agora:</strong>
-          <span style="color:#bbb;font-size:.85rem;line-height:1.6;">${dicaDoPiorPilar} O ideal é implementar um sistema de captação (LST) para converter os leads certos. Fale conosco sobre isso.</span>
+      
+      // Conclusão do Parecer para Desqualificados (FOCO LST E CONVERSÃO)
+      htmlRaioX += `
+        <div style="padding: 1.25rem; background: rgba(255,64,96,0.05); border: 1px solid rgba(255,64,96,0.3); border-radius: 12px; text-align: left;">
+          <h4 style="color:#FF4060; font-size:0.9rem; font-weight:900; margin-bottom:0.5rem; text-transform:uppercase;">Veredito: Foco na Captação Primeiro</h4>
+          <p style="color:#e0e0e0; font-size:0.85rem; line-height:1.6; margin-bottom: 1rem;">Antes de implementar uma automação complexa de IA, sua prioridade número um deve ser <strong>atrair e qualificar melhor os alunos</strong>. Jogar leads desqualificados num funil automatizado é desperdiçar dinheiro e energia do comercial.</p>
+          <div style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; border-left: 3px solid #25d366;">
+            <p style="color:#25d366; font-size:0.85rem; font-weight: 700; line-height:1.5;">� Fato de Mercado: A qualificação de leads através do sistema LST (Diagnóstico Interativo como este) converte 3x mais do que formulários comuns. Nossos dados mostram um salto de 1.8% (antes do LST) para 5% de conversão real em vendas.</p>
+          </div>
         </div>
       `;
-      
-      setTimeout(() => { abrirModalConversao('lst', linkLST, totalScore); }, 300);
+      summaryEl.innerHTML = htmlRaioX;
+
+      setTimeout(() => { abrirModalConversao('lst', totalScore); }, 300);
     }
   }, 1200);
 }
@@ -590,18 +637,14 @@ function animateScore(target) {
   requestAnimationFrame(update);
 }
 
-function abrirModalConversao(tipo, url, pct) {
+function abrirModalConversao(tipo, pct) {
   let modalId = tipo === 'plugai' ? 'plugai-popup-aviso' : 'lst-popup-aviso';
-  let linkId = tipo === 'plugai' ? 'plugai-popup-link' : 'lst-popup-link';
   let scoreId = tipo === 'plugai' ? 'plugai-popup-score' : 'lst-popup-score';
   let arcId = tipo === 'plugai' ? 'plugai-modal-arc' : 'lst-modal-arc';
 
   var av = document.getElementById(modalId);
   if(!av) return;
   av.style.display = 'flex';
-  
-  var a = document.getElementById(linkId);
-  if(a) a.href = url;
   
   var sc = document.getElementById(scoreId), arc = document.getElementById(arcId), CIRC = 377;
   if(sc && arc) {
